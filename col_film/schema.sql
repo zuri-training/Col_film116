@@ -58,7 +58,7 @@ create table if not exists person (
 
 create table if not exists department (
   department_id serial not null primary key,
-  department_name_name text not null,
+  department_name text not null,
 );
 
 
@@ -71,9 +71,11 @@ create table if not exists movie_crew (
 
 
 
-create table if not exists posts (
-  id serial not null primary key,
-  blog_id int not null references blogs(id) on delete cascade,
+create table if not exists movies (
+  movie_id serial not null primary key,
   title text not null,
-  tags text[] not null default '{}'
+  homepage text not null,
+  overview text not null,
+  poularity text not null,
+  release_date timestamp not null,
 );
