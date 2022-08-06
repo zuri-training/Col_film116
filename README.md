@@ -57,19 +57,19 @@ _Follow the steps below to get the program working on your system locally._
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/zuri-training/Col_Films_Proj_Team_113.git
+   git clone https://github.com/zuri-training/Col_film116.git
    ```
 2. Change into the directory of the cloned repo
    ```sh
-   cd Col_Films_Proj_Team_113
+   cd Col_film116
    ```
 3. Setup a virtual environment
    ```sh
-   python -m venv venv
+   python -m venv colfilm_env
    ```
 4. Activate the virtual environment
    ```sh
-   source \venv\Scripts\activate
+   source \colfilm_env\Scripts\activate
    ```
 5. Install the project requirements
    ```sh
